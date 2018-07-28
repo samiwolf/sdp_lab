@@ -13,10 +13,10 @@ public class MainClass {
     public static void main(String[] args) {
         
         Duck mallardDuck = new MallardDuck();
-        Duck redHeadDuck = new RedHeadDuck();
+      
+        mallardDuck.setFlyBehavior(new FlyWithWings());
+        mallardDuck.flyBehavior.fly();
         
-        mallardDuck.display();
-        redHeadDuck.display();
     }
     
 }

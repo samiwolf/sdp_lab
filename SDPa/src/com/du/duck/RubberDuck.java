@@ -9,6 +9,17 @@ package com.du.duck;
  *
  * @author samiul_siddiqui
  */
-public class RubberDuck {
+public class RubberDuck extends Duck{
+
+    @Override
+    void display() {
+        System.out.println("I am rubber duck. How am I talking?");
+    }
+    
+    @Override
+    public void quack()
+    {
+        System.out.println("Shhhhhhhhhhhhhhhhhh");
+    }
     
 }
